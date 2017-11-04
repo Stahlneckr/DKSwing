@@ -1,0 +1,17 @@
+{
+  "name": "DK-problem",
+  "description": "",
+  "author": "Nick Stahlnecker",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node DK.js",
+    "update-packages": "sudo npm install -g npm-check-updates && npm-check-updates -u"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "csv": "^2.0.0",
+    "csv-parse": "^2.0.0",
+    "winston": "2.2.x"
+  }
+}
